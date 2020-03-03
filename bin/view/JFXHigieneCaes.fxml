@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="708.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXHigieneCaesControle">
+   <children>
+      <Label layoutX="246.0" layoutY="8.0" prefHeight="75.0" prefWidth="272.0" text="Higiene dos Cães" textFill="#020d25">
+         <font>
+            <Font name="Forte" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="540.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/pataCaoP.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="119.0" fitWidth="201.0" layoutX="493.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/cao_higiene.gif" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="153.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O banho é fundamental, afinal cuidando da higiene deles, estaremos zelando pela nossa saúde também. Existem os &quot;banhos de manutenção&quot;, para limpeza do animal; os &quot;banhos para tratamento&quot;, seja para o controle de parasitas como pulgas, carrapatos, piolhos ou tratamento de problemas de pele; e o &quot;banho a seco&quot;, que utiliza produtos para limpeza da pele sem molhar o animal totalmente." textAlignment="CENTER" wrappingWidth="323.9999952316284">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="228.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Use sempre produtos específicos para animais. Não se recomenda utilizar sabonetes de linha humana; " textAlignment="CENTER" wrappingWidth="427.9999757409096">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="192.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/helpet_marca.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="192.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/helpet_marca.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="228.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Proteja sempre os ouvidos do animal com algodão;" textAlignment="CENTER" wrappingWidth="323.99998873472214">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="192.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/helpet_marca.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="228.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para secar, coloque o secador a uma distância de aproximadamente 30 cm do pelo e aproveite para penteá-los;" textAlignment="CENTER" wrappingWidth="427.99998873472214">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="228.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="As unhas devem ser cortadas sempre por um profissional;" textAlignment="CENTER" wrappingWidth="368.39843904972076">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="192.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/helpet_marca.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="192.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/helpet_marca.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="226.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verifique se não há excesso de secreção nos olhos. Limpe sempre que possível para evitar o aparecimento de manchas na pelagem da região. " textAlignment="CENTER" wrappingWidth="427.99998873472214">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="192.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/helpet_marca.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="226.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Limpe o ouvido toda semana para evitar o acúmulo de cera que pode causar infecções e cheiro desagradável." textAlignment="CENTER" wrappingWidth="427.9999757409096">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <AnchorPane prefHeight="486.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Separator layoutX="20.0" layoutY="80.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="89.0" fitWidth="113.0" layoutX="24.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/helpet_logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bVoltar_HigieneCao" layoutX="28.0" layoutY="127.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Voltar" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

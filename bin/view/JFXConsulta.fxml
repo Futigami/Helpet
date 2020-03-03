@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="513.0" prefWidth="699.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXConsultaControle">
+   <children>
+      <Button fx:id="bConsultar" layoutX="370.0" layoutY="452.0" mnemonicParsing="false" onAction="#Consultar" style="-fx-background-color: transparent; -fx-border-color: #f8f7f7;" text="Consultar" textFill="#f8f7f7">
+         <font>
+            <Font name="Book Antiqua" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="318.0" layoutY="26.0" text="Possível Patologia" textFill="#fffbfb">
+         <font>
+            <Font name="Times New Roman Bold" size="29.0" />
+         </font></Label>
+      <Separator layoutX="148.0" layoutY="71.0" prefHeight="5.0" prefWidth="541.0" />
+      <ComboBox fx:id="cbAnimal" layoutX="331.0" layoutY="321.0" onAction="#carregaListas" prefHeight="33.0" prefWidth="174.0" promptText="Animal" style="-fx-background-color: transparent; -fx-border-color: #fffbfb;" />
+      <ComboBox fx:id="cbRaca" layoutX="331.0" layoutY="365.0" onAction="#carregarSintomas" prefHeight="33.0" prefWidth="174.0" promptText="Raça" style="-fx-background-color: transparent; -fx-border-color: #fffbfb;" />
+      <ComboBox fx:id="cbSintoma" layoutX="331.0" layoutY="409.0" prefHeight="33.0" prefWidth="174.0" promptText="Sintoma" style="-fx-background-color: transparent; -fx-border-color: #fffbfb;" />
+      <TableView fx:id="tvConsulta" layoutX="192.0" layoutY="91.0" onKeyReleased="#carregarDados" prefHeight="213.0" prefWidth="451.0">
+        <columns>
+          <TableColumn fx:id="tcAnimal" prefWidth="75.0" text="Animal" />
+          <TableColumn fx:id="tcRaca" prefWidth="75.0" text="Raça" />
+            <TableColumn fx:id="tcDoenca" prefWidth="75.0" text="Doença" />
+            <TableColumn fx:id="tcDescricao" prefWidth="75.0" text="Descrição" />
+            <TableColumn fx:id="tcSintoma" prefWidth="75.0" text="Sintoma" />
+            <TableColumn fx:id="tcTratamento" prefWidth="75.0" text="Tratamento" />
+        </columns>
+      </TableView>
+      <AnchorPane prefHeight="513.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Button fx:id="bHome_Consulta" layoutX="24.0" layoutY="109.0" mnemonicParsing="false" onAction="#Home" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Home" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Separator layoutX="19.0" layoutY="69.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="89.0" fitWidth="113.0" layoutX="24.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/helpet_logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

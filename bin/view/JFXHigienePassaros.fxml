@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="600.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXHigienePassarosControle">
+   <children>
+      <Label layoutX="176.0" prefHeight="62.0" prefWidth="292.0" text="Higiene dos Pássaros" textFill="#020d25">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="62.0" fitWidth="66.0" layoutX="457.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/passaroPata.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="155.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Você pode colocar a banheira para o banho dos pássaros de 2 a 3 vezes por semana. Retire a banheira logo em seguida para não correr o risco do pássaro beber da água suja. Para fêmeas em período de reprodução a banheira deve ser colocada todos os dias para que os ovos possam umidecer.&#10;Consulte um veterinário especialista em aves para saber da necessidade de cortar o bico e as unhas. Jamais faça isso em casa. Consulte-o também para as vacinas e os vermífugos necessários que devem ser tomados pelo pássaro." textAlignment="CENTER" wrappingWidth="412.552734375">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="169.0" fitWidth="292.0" layoutX="277.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/passaro_banho.gif" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="463.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Separator layoutX="19.0" layoutY="69.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="89.0" fitWidth="113.0" layoutX="24.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/helpet_logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bVoltar_HigienePassaro" layoutX="27.0" layoutY="112.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Voltar" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

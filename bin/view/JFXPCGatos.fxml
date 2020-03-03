@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="581.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXPCGatosControle">
+   <children>
+      <Label layoutX="193.0" layoutY="8.0" prefHeight="75.0" prefWidth="255.0" text="Primeiros Cuidados" textFill="#020d25">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="456.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/pataGato.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="148.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pequenos e frágeis, os gatinhos precisam de atenção e cuidados.&#10;Na hora do nascimento, cada gatinho nasce num envoltório que a mãe rompe ao limpar o filhote, ela come a placenta o que estimula a produção de leite. Ela não se contenta em apenas amamentar seus filhotes, mas passa grande parte do tempo a lambê-los e lustrá-los com sua língua áspera.&#10;Cuide bem do seu filhote, pois ele é suscetível a um grande número de parasitas e precisam de cuidados especiais" textAlignment="CENTER" wrappingWidth="406.73877035081387">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="218.0" fitWidth="180.0" layoutX="439.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Morgana.GIF" />
+         </image>
+      </ImageView>
+      <Label layoutX="232.0" layoutY="207.0" text="Alimentação">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="145.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O período de amamentação é fundamental. Após o desmame, a melhor opção é ração adequada para filhotes. Não dê a sua comida, pois os gatos têm carências nutricionais diferentes das nossas! Os filhotes desmamados de 7 ou 8 semanas devem ser alimentados ao menos três vezes ao dia.&#10;Lembre-se que os filhotes crescem muito rapidamente e que o seu apetite e necessidade de alimentação aumentam também. Alimente os filhotes sempre que achar conveniente e nunca menos que três vezes ao dia até eles completarem 6 meses." textAlignment="CENTER" wrappingWidth="276.947265625">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <AnchorPane prefHeight="457.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Separator layoutX="19.0" layoutY="69.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="89.0" fitWidth="113.0" layoutX="24.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/helpet_logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bVoltar_PCGatos" layoutX="29.0" layoutY="114.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Voltar" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

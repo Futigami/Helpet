@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="600.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXPCPassarosControle">
+   <children>
+      <AnchorPane prefHeight="463.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Separator layoutX="19.0" layoutY="71.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="87.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bMeuPet" layoutX="19.0" layoutY="122.0" mnemonicParsing="false" onAction="#MeuPet" prefHeight="35.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Meu Pet" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font>
+            </Button>
+            <Separator layoutX="19.0" layoutY="185.0" prefHeight="5.0" prefWidth="98.0" />
+            <Label layoutX="67.0" layoutY="27.0" text="fulano" />
+            <Button fx:id="bVoltar_PCPassaros" layoutX="24.0" layoutY="217.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Voltar" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="193.0" layoutY="8.0" prefHeight="75.0" prefWidth="255.0" text="Primeiros Cuidados" textFill="#020d25">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="75.0" fitWidth="58.0" layoutX="456.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/passaroPata.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="145.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Para todas as aves, quanto maior for o viveiro melhor para o animal. Porém, se o proprietário for abrigá-las em uma gaiola, é importante pesquisar modelos, materiais e malhas mais indicadas para a espécie em questão. Uma escolha errada pode provocar problemas ou até mesmo fugas. Os pássaros devem ficar sempre protegidos do frio, portanto, o interior da casa é o local mais indicado para abrigar uma gaiola. Mesmo assim, vale lembrar que as espécies precisam tomar banho de sol com frequência e moderação. Os pássaros devem ficar sempre protegidos do frio, portanto, o interior da casa é o local mais indicado para abrigar uma gaiola. Mesmo assim, vale lembrar que as espécies precisam tomar banho de sol com frequência e moderação. &#10;Se a ave foi acostumada desde filhote a ter contenção de voo (asas cortadas) não há problemas para seu desenvolvimento, contando que o corte da asa seja feito de modo correto. Este procedimento, porém, não é indicado para aves adultas, que já estão habituadas com o voo alto. Neste caso, o corte pode provocar até mesmo o óbito do animal." textAlignment="CENTER" wrappingWidth="449.205078125">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="118.0" fitWidth="200.0" layoutX="300.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/passaro_pc.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
