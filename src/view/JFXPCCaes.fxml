@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="600.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXPCCaesControle">
+   <children>
+      <Label layoutX="193.0" layoutY="8.0" prefHeight="75.0" prefWidth="255.0" text="Primeiros Cuidados" textFill="#020d25">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="46.0" layoutX="456.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/pataCaoP.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="154.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Muito curiosos, nesta fase os cães estão começando a conhecer o mundo, as coisas e as pessoas através do olfato. Extremamente brincalhões, eles estão cheios de energia! Brinque com seu animal e participe de suas descobertas. " textAlignment="CENTER" wrappingWidth="431.578125">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="154.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pequenos e frágeis, os filhotes são suscetíveis a um grande número de parasitas e precisam de cuidados especiais para proporcionar uma relação saudável entre você e seu amigo. É importante também conhecer sobre os prazos de vacinação adequados e os tipos de vacina que o seu filhote necessitará." textAlignment="CENTER" wrappingWidth="229.560546875">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="168.0" fitWidth="165.0" layoutX="403.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/filhote-de-cachorro.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="237.0" layoutY="316.0" text="Alimentação">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="147.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O período de amamentação é fundamental. Depois, a melhor opção é ração para filhotes. Não dê a sua comida, pois os animais têm carências nutricionais diferentes das nossas!" textAlignment="CENTER" wrappingWidth="445.65234375">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Text>
+      <AnchorPane prefHeight="424.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Separator layoutX="20.0" layoutY="80.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="23.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua" size="18.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="89.0" fitWidth="113.0" layoutX="24.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/helpet_logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bHome_PCCaes" layoutX="26.0" layoutY="113.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Voltar" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

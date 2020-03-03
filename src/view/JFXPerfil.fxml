@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="586.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXPerfilControle">
+   <children>
+      <AnchorPane layoutX="40.0" layoutY="158.0" prefHeight="189.0" prefWidth="506.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <TextField fx:id="tfUsuario" alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="205.0" promptText="Usuario" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </TextField>
+            <Line endX="100.0" layoutX="116.0" layoutY="39.0" startX="-100.0" stroke="MEDIUMBLUE" />
+            <TextField fx:id="tfEmail" alignment="TOP_LEFT" layoutX="14.0" layoutY="70.0" prefHeight="25.0" prefWidth="205.0" promptText="Email" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </TextField>
+            <Line endX="100.0" layoutX="116.0" layoutY="95.0" startX="-100.0" stroke="MEDIUMBLUE" />
+            <TextField fx:id="tfEndereco" alignment="TOP_LEFT" layoutX="286.0" layoutY="14.0" prefHeight="25.0" prefWidth="205.0" promptText="Endereço" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </TextField>
+            <Line endX="100.0" layoutX="388.0" layoutY="38.0" startX="-100.0" stroke="MEDIUMBLUE" />
+            <TextField fx:id="tfTelefone" alignment="TOP_LEFT" layoutX="289.0" layoutY="69.0" prefHeight="25.0" prefWidth="205.0" promptText="Telefone" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </TextField>
+            <Line endX="100.0" layoutX="391.0" layoutY="94.0" startX="-100.0" stroke="MEDIUMBLUE" />
+            <Button fx:id="bAlterar" layoutX="302.0" layoutY="134.0" mnemonicParsing="false" onAction="#Alterar" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #1E90FF;" text="Alterar" textFill="#f8f8f8">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow color="WHITE" height="32.72" radius="12.1275" width="17.79" />
+               </effect>
+            </Button>
+            <Button fx:id="bVoltar" layoutX="86.0" layoutY="134.0" mnemonicParsing="false" onAction="#Voltar" prefHeight="25.0" prefWidth="87.0" style="-fx-background-color: #1E90FF;" text="Voltar" textFill="#f8f8f8">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow color="WHITE" height="25.22" radius="10.2525" width="17.79" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="123.0" prefWidth="557.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <ImageView fitHeight="123.0" fitWidth="500.0" layoutX="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="705.0" style="-fx-background-color: #00BFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JFXQuemSomosControle">
+   <children>
+      <AnchorPane prefHeight="460.0" prefWidth="135.0" style="-fx-background-color: #1E90FF;">
+         <children>
+            <Button fx:id="bHome_QuemSomos" layoutX="24.0" layoutY="209.0" mnemonicParsing="false" onAction="#Home" prefHeight="30.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: #fcf8f8;" text="Home" textFill="#fcf8f8">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </Button>
+            <Separator layoutX="19.0" layoutY="71.0" prefHeight="5.0" prefWidth="98.0" />
+            <Button fx:id="bPerfil" layoutX="24.0" layoutY="87.0" mnemonicParsing="false" onAction="#Perfil" prefHeight="35.0" prefWidth="87.0" style="-fx-background-color: transparent;" text="Perfil" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="bMeuPet" layoutX="19.0" layoutY="122.0" mnemonicParsing="false" onAction="#MeuPet" prefHeight="35.0" prefWidth="98.0" style="-fx-background-color: transparent;" text="Meu Pet" textFill="#fffdfd">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font>
+            </Button>
+            <Separator layoutX="19.0" layoutY="185.0" prefHeight="5.0" prefWidth="98.0" />
+            <Label layoutX="67.0" layoutY="27.0" text="fulano" />
+         </children>
+      </AnchorPane>
+      <Separator layoutX="145.0" layoutY="63.0" prefHeight="23.0" prefWidth="546.0" />
+      <Label layoutX="307.0" layoutY="14.0" text="Quem Somos" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Bold" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="86.0" prefHeight="139.0" prefWidth="418.0" text="Constituido por 5 integrantes da etec,&#10; a equipe Helpet&#10;tem como membros: &#10;Bruno, Juliana, Erick, Eduardo &#10;e Lucas Rapassi.&#10;" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="210.0" fitWidth="305.0" layoutX="284.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/IMG_7527.JPG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
